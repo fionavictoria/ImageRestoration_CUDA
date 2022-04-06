@@ -32,6 +32,7 @@ The image restoration algorithm involves optimizing the mathematical computation
 #### CPU Mode 
 ##### OpenCV
 - C++ OpenCV Implementation of Image restoration
+- The source code can also be found in the samples/cpp/tutorial_code/ImgProc/out_of_focus_deblur_filter/out_of_focus_deblur_filter.cpp of the OpenCV source code library.
 
 ``` 
 g++ Opencv_implementation.cpp -o program -I/usr/local/include/opencv4 -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc $(pkg-config opencv4 --libs)
