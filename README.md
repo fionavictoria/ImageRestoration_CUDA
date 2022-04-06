@@ -70,6 +70,9 @@ nsys profile --stats=true --force-overwrite true --show-output true ./program
 - The above implemented image restoration algorithm works well on the square sized and even sized images
 - Maximum recommemded image size - 256 * 256 pixels
 
+## Results
+Results of experimentation show that the CUDA implementation of the image restoration algorithm outperforms the C++ implementation as the problem size grows i.e., for larger images. Results also show that this acceleration does not come at the cost of accuracy. The MSE and PSNR calculations are the same, with minimal residuals, for both implementations.
+
 ## More information
 On CUDA kernel usage, image restoration results and performance analysis -  [ImageRestoration_CUDA.pdf](https://github.com/fionavictoria/ImageRestoration_CUDA/blob/main/ImageRestoration_CUDA.pdf)
    
